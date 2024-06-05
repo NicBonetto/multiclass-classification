@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multiclass-classification"
+authors = [
+  { name: "Nicholas Bonetto", email: "nick.bonetto@gmail.com" }
+]
+description = "A ML model that classifies newswires into single-label topics."
+dependencies = [
+  "tensorflow",
+  "keras",
+  "numpy",
+  "matplotlib"
+]
